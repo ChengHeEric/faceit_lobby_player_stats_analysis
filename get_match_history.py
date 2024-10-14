@@ -2,9 +2,9 @@
 import requests
 import pandas as pd
 
-#api key and name 
-api_key = '7f8ce17d-1937-4fb4-bd30-7016aff9a038'
-api_name = 'Key_GdjvMZvHxQ'
+#api key and name obtained from faceit 
+api_key = 'example api key'
+api_name = 'example api name'
 
 games_url = f'https://open.faceit.com/data/v4/matches/{input("please enter the faceit match id that you want to analyze")}'
 headers = {"Authorization": f"Bearer {api_key}"}
