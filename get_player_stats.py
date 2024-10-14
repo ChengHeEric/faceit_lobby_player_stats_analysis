@@ -16,8 +16,8 @@ async def fetch_all(urls, headers):
         responses = await asyncio.gather(*tasks)  # Run all tasks concurrently
         return responses
 
-api_key = '9444122f-110e-4f4e-81fb-5162e1c70cac'
-api_name = 'Key_FhNKALzMPk'
+api_key = 'example api key'
+api_name = 'example api name'
 
 headers = {"Authorization": f"Bearer {api_key}"}
 
